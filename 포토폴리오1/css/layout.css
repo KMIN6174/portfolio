@@ -1,0 +1,185 @@
+@charset "utf-8";
+body,html{
+  max-width: 1920px;
+  margin: 0 auto;
+  font-family: 'Ubuntu', sans-serif !important;
+  /*! font-family: 'Noto Sans KR', sans-serif !important; */ 
+  height: 1080px;
+}
+header{
+  max-width: 1920px;
+  margin: 0 auto;
+  height: 1080px;
+}
+header div.header{ 
+  height: 100%;
+  background-color: #000;
+  color: #fff;
+  position: relative;
+}
+header div.header h1{  
+  position: absolute;
+  top: 230px;
+  font-size: 50px;
+  left: 90px;
+  line-height: 1.5;
+}
+
+header div.header h2{ 
+  position: absolute;
+  bottom: 250px;
+  font-size: 50px;
+  left: 98px;
+}
+header div.header img{ 
+  width: 40%;
+  position: absolute;
+  left: 650px;
+  transform: rotate(180deg);
+  top: -95px;
+}
+header div.header ul{  
+  position: absolute;
+  bottom: 170px;
+  left: 100px;
+  font-size: 20px;
+}
+header div.header ul li{  
+  margin: 10px 0;
+}
+/* section */
+section#profile{  
+  max-width: 1920px;
+  height: 100%;
+  background-color: #0b0b0b;
+  color: #fff;
+  position: relative;
+  margin: 0 auto;
+  text-align: center;
+}
+
+section#profile div.profile1{ 
+  display: inline-block;
+  position: absolute;
+  left: 175px;
+}
+section#profile h1{ 
+  text-align: center;
+  font-size: 100px;
+  background: linear-gradient(to bottom, #fff390, #595959);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding-bottom: 140px;
+  margin-top: 0 !important;
+}
+
+section#profile div.profile1 ul{  
+  display: inline-block;
+  text-align: center;
+}
+section#profile div.profile1 ul li{  
+  font-size: 50px;
+  margin: 40px 0;
+}
+section#profile div.profile1 img{  
+  border-radius: 200px;
+  width: 300px;
+  height: 300px;
+}
+section#profile div.about{
+  
+  display: inline-block;
+  position: absolute;
+  left: 580px;
+  text-align: left;
+}
+section#profile div.about h2{
+  
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+section#profile div.about ul{
+  
+  font-size: 20px;
+}
+section#profile div.about ul li{
+  
+  padding: 5px 0;
+}
+section#profile div.about ul li span{
+  
+}
+section#profile div.cert{
+  
+  display: inline-block;
+  position: absolute;
+  left: 580px;
+  text-align: left;
+  bottom: 110px;
+}
+section#profile div.cert h2{
+  
+  font-size: 50px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+section#profile div.cert ul{
+  
+  font-size: 20px;
+}
+section#profile div.cert ul li{
+  
+  padding: 5px 0;
+}
+section#profile div.cert ul li span{
+  
+}
+section#profile div.skill{
+  
+  display: inline-block;
+  position: absolute;
+  text-align: center;
+  left: 1050px;
+  margin: 0 auto;
+}
+section#profile div.skill h2{
+  
+  font-size: 50px;
+  text-transform: uppercase;
+  text-align: left;
+}
+section#profile div.skill h3{
+  
+  font-size: 40px;
+  padding: 15px 0;
+}
+section#profile div.skill ul{
+  
+  font-size: 20px;
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+section#profile div.skill ul li{ 
+  padding: 5px 0;
+  width: 50%;
+  float: left;
+}
+section#profile div.skill ul li i{
+  
+  padding-right: 5px;
+}
+section#profile div.skill ul li div{
+  border-radius: 10px;
+  margin: 0 auto;
+}
+section#profile div.skill ul li .progress{
+  
+  width: 77%;
+  margin-top: 10px;
+}
+section#profile div.skill ul li div .progress-bar{  
+  
+  background-color: #808080;
+}
